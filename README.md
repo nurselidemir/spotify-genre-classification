@@ -46,10 +46,10 @@ Projeyi Streamlit ile deploy ederek, makine öğrenmesi modelini interaktif bir 
 ## Proje Arayüzünden Ekran Görüntüleri  
 
 ![Ana Sayfa](images/1.png)  
-*Şarkı özelliklerinin girildiği ana sayfa*
+
 
 ![Özellikler](images/2.png)  
-*Modelin tür tahmini sonucu*
+
 
 ![Tahmin Sonucu](images/3.png)  
 
