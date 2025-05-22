@@ -40,12 +40,41 @@ Bu projede Spotify şarkı türü sınıflandırması üzerine çalıştım ve �
 - **Random Forest**, bir ansamble yöntemi olarak, karar ağaçlarının topluluğu sayesinde daha yüksek doğruluk ve genelleme kabiliyeti gösterdi. Verideki karmaşık ilişkileri daha iyi yakalayarak modelin doğruluğunu artırdı.
 - **XGBoost**, gelişmiş gradyan artırma algoritması olarak, hem doğruluk hem de genel model performansı açısından en iyi sonucu verdi. RandomizedSearchCV ile yapılan hiperparametre optimizasyonu, modelin overfitting riskini azaltırken test setinde en yüksek doğruluğa ulaşmasını sağladı.
 
+- **Deploy**
+Projeyi Streamlit ile deploy ederek, makine öğrenmesi modelini interaktif bir web uygulamasına dönüştürdüm. Kullanıcılar, web üzerinden şarkı özelliklerini girip tür tahmini yapabiliyor.
+
+## Proje Arayüzünden Ekran Görüntüleri  
+
+![Ana Sayfa](images/1.png)  
+*Şarkı özelliklerinin girildiği ana sayfa*
+
+![Özellikler](images/2.png)  
+*Modelin tür tahmini sonucu*
+
+![Tahmin Sonucu](images/3.png)  
+
+## Projeyi Çalıştırma ve Deploy Etme
+Projeyi yerel makinenizde çalıştırmak için şu adımları izleyin:
+
+Gerekli paketleri yükleyin:
+  pip install -r requirements.txt  
+
+Streamlit arayüzünü başlatın:
+  streamlit run spotify_app.py 
+
 
 ## Gereksinimler
 
 - Python 3.8+
-- pandas, numpy, scikit-learn
-- xgboost, seaborn, matplotlib
+- pandas
+- numpy
+- scikit-learn
+- xgboost
+- seaborn
+- matplotlib
+- streamlit
+- joblib
+- numpy
 
 ## Kaggle linkleri
 
