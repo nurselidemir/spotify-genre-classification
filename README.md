@@ -47,3 +47,7 @@ Bu projede Spotify şarkı türü sınıflandırması üzerine çalıştım ve �
 - pandas, numpy, scikit-learn
 - xgboost, seaborn, matplotlib
 
+## Kaggle linkleri
+
+- https://www.kaggle.com/code/nurselidemir/datapreprocessing
+- https://www.kaggle.com/code/nurselidemir/supervised
