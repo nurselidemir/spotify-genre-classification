@@ -76,6 +76,24 @@ Streamlit arayüzünü başlatın:
 - joblib
 - numpy
 
+##  Sonuç ve Gelecek Çalışmalar
+Bu proje kapsamında, Spotify şarkı verileri üzerinde gerçekleştirdiğim çok sınıflı müzik türü sınıflandırma çalışması ile makine öğrenmesi süreçlerine dair kapsamlı bir deneyim kazandım. Her ne kadar elde edilen doğruluk oranları ideal seviyelere ulaşmamış olsa da, bu durum veri setindeki sınıflar arasındaki dengesizlik, sınıfların birbiriyle olan örtüşmesi ve müzik türlerinin sayısal temsili gibi zorluklara işaret etmektedir. Bu bağlamda proje, makine öğrenmesi modelleme sürecinde gerçek dünya verisiyle çalışmanın zorluklarını ve modelin başarısını etkileyen kritik faktörleri keşfetmemi sağladı.
+
+## Gelecek Yönelimler
+Bu çalışmayı daha güçlü ve etkili bir hale getirebilmek için aşağıdaki geliştirme alanlarına odaklanmayı planlıyorum:
+
+Veri Kalitesinin Artırılması
+Mevcut veri seti yerine Spotify API üzerinden daha dengeli, güncel ve kapsamlı veri toplayarak daha sağlam bir eğitim seti oluşturulabilir. Özellikle tür başına örnek sayısını artırmak, modelin genelleme gücünü doğrudan artıracaktır.
+
+Yeni Özellik Mühendisliği
+Mevcut sayısal özelliklerin yanı sıra; şarkı sözleri, tempo değişimleri, akor yapısı gibi müzikal metriklerden türetilmiş yeni değişkenler eklenerek modelin öğrenme kapasitesi artırılabilir.
+
+Model Seçimi ve Derin Öğrenme Yaklaşımları
+Geleneksel algoritmalar yerine, ses dosyalarını doğrudan analiz edebilen derin öğrenme modelleri (örneğin CNN veya LSTM tabanlı modeller) ile daha güçlü temsiller öğrenilebilir.
+
+Çok Etiketli (Multi-label) Sınıflandırma
+Bazı şarkıların birden fazla türe ait olması gerçeği göz önüne alındığında, problem çok etiketli sınıflandırma problemine dönüştürülerek daha gerçekçi tahminler yapılabilir.
+
 ## Kaggle linkleri
 
 - https://www.kaggle.com/code/nurselidemir/datapreprocessing
